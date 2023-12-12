@@ -1,0 +1,102 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr fr ;
+}
+
+.headLine{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    font-size: 20pt;
+}
+
+.para{
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 400;
+    font-size: larger;
+    margin-top: 0;
+}
+
+.p1,
+.p2{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-image: url(../images/dog_img2.jpg);
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-blend-mode: luminosity;   
+
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+.text_input{
+    margin-top: 10px;
+}
+
+.drop_down{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.subBtn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#subBtn{
+    color: black;
+    border: 1px solid black;
+}
+#subBtn:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+#form_elements{
+    
+    border: #020002;
+    border-style: groove;
+    margin-right: 400px;
+    margin-left: 400px;
+    border-width: 5px;
+}
+.breedInput, .dog-selector{
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+}
+
+.img_generated{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    margin-top: 30px;
+
+}
+
+.img_{
+    border: #020002;
+    border-style: ridge;
+    border-width: 5px;
+}
