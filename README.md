@@ -6,4 +6,4 @@ To run this project on your own device follow the steps below
 1] Download and save file from this project
 2] open index.js file in your IDE like VSCode
 3] In your IDE terminal install all the necessary packages using npm.i 
-4] Once the server is established on your computer you can go to your local browser and type "https://localhost:3000" to start the project
+4] Once the server is established on your computer you can go to your local browser and type "http://localhost:3000" to start the project
